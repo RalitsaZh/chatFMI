@@ -1,0 +1,6 @@
+.searchInput {
+  background-color: rgb(243, 243, 241);
+  display: flex;
+  justify-content: center;
+  border: 2px solid #fdf8f1;
+}
