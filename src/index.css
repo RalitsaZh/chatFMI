@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "Snell-Roundhand";
+  src: local("Snell-Roundhand");
+}
+@font-face {
+  font-family: "Handlee-Regular";
+  src: local("Handlee-Regular");
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(250, 250, 250);
+  margin-top: 85px !important;
+}
+
+::-webkit-scrollbar {
+  width: 0;  /* Remove scrollbar space */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
